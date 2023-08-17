@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+    <style>
+         button{
+            width:8%;
+            height:40px;
+            border:none;
+            outline: none;
+            border-radius: 5em;
+            cursor: pointer;
+            background:rgb(130, 238, 164);
+            font-size: 1.1em;
+            color: black;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body bgcolor="orange">
+    
+
+    
+    <h1>Contact Me</h1>
+    <form action="Thanks.html" target="_blank">
+    <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+            <tr>
+                <td><label for="f_name">First Name</label><td><input type="text" size="15" id="f_name" name="f_name" placeholder="Ex:Tharun" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="l_name">Last Name</label><td><input type="text" id="l_name" name="l_name" placeholder="Ex:varra" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="phone_no">Phone No</label><td><input type="number" name="phone_no" id="phone_no" placeholder="1234567890" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label><td><input type="email" name="email" id="email" placeholder="vtkr@gmail" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label><td><input type="password" name="pass" id="password" placeholder="Min 5 characters" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="c_pass">Confirm Password</label><td><input type="text" name="c_pass" id="c_pass" placeholder="Min 5 characters" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB</label><td><input type="date" name="date" id="dob" required></td></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label><td><input type="radio" name="gender" id="Gender" value="M">
+                <label for="Gender">Male</label>
+                <input type="radio" name="gender" id="Gender" value="F">
+                <label for="Gender">Female</label>
+                <input type="radio" name="gender" id="Gender" value="C">
+                <label for="Gender">Custom</label></td></td>
+            </tr>
+            <tr>
+                <td><label for="">Select Country</label></td>
+                <td>
+                    <select name="Country">
+                        <option value="INDIA">INDIA</option>
+                        <option value="USA">USA</option>
+                        <option value="JAPAN">JAPAN</option>
+                    </select>
+                </td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td><input type="reset"></td>
+            </tr>
+    </table>
+    </fieldset><br><br><br>
+    <center>
+        
+        <Button>Next</Button><br><br><br>
+    
+</center>
+    
+         
+    </form><br><br>
+
+    
+
+    <center>
+        <form action="project.html">
+    <button>Back</button>
+        </form>
+    </center>
+</body>
+</html>
